@@ -4,7 +4,7 @@
     xmlns:scte35="http://www.scte.org/schemas/35/2014SCTE35.xsd" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT5.000S" maxSegmentDuration="PT2.005S" availabilityStartTime="2016-01-20T21:10:02Z" mediaPresentationDuration="PT193.680S">
     <Period id="period0">
         <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080" maxFrameRate="30000/1001" par="1:1">
-            <SegmentTemplate timescale="90000" initialization="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-Header.m4s" media="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-27014600-i-$Number$.m4s" startNumber="1" duration="179704" presentationTimeOffset="0"/>
+            <SegmentTemplate timescale="90000" initialization="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-Header.m4s" media="https://upos-sz-mirrorali.bilivideo.com/envivio/EnvivioDash3/$RepresentationID$-27014600-i-$Number$.m4s" startNumber="1" duration="179704" presentationTimeOffset="0"/>
             <Representation id="v1_257" bandwidth="1200000" codecs="avc1.4D401E" width="768" height="432" frameRate="30000/1001" sar="1:1" scanType="progressive"/>
             <Representation id="v2_257" bandwidth="1850000" codecs="avc1.4D401E" width="1024" height="576" frameRate="30000/1001" sar="1:1" scanType="progressive"/>
             <Representation id="v3_257" bandwidth="2850000" codecs="avc1.4D401E" width="1280" height="720" frameRate="30000/1001" sar="1:1" scanType="progressive"/>
