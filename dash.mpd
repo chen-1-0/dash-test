@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="urn:mpeg:dash:schema:mpd:2011"
+    xmlns:scte35="http://www.scte.org/schemas/35/2014SCTE35.xsd" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT5.000S" maxSegmentDuration="PT2.005S" availabilityStartTime="2016-01-20T21:10:02Z" mediaPresentationDuration="PT193.680S">
+    <Period id="period0">
+        <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080" maxFrameRate="30000/1001" par="1:1">
+            <SegmentTemplate timescale="90000" initialization="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-Header.m4s" media="https://upos-sz-mirrorali.bilivideo.com/upgcxcode/29/53/997535329/997535329_nb3-1-30080.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1677510764&gen=playurlv2&os=alibv&oi=2081457450&trid=91ba3fe42ea64ac99f88a7cd22fd8aafu&mid=364219029&platform=pc&upsig=0dd971c70701c9da6d52fc38b8b935f4&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&orderid=0,3&buvid=&build=0&agrr=0&bw=40329&logo=80000000" startNumber="1" duration="179704" presentationTimeOffset="0"/>
+            <Representation id="v1_257" bandwidth="1200000" codecs="avc1.4D401E" width="768" height="432" frameRate="30000/1001" sar="1:1" scanType="progressive"/>
+        </AdaptationSet>
+        <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" lang="qaa">
+            <SegmentTemplate timescale="90000" initialization="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-Header.m4s" media="https://dash.akamaized.net/envivio/EnvivioDash3/$RepresentationID$-270146-i-$Number$.m4s" startNumber="1" duration="179704" presentationTimeOffset="0"/>
+            <Representation id="v4_258" bandwidth="130800" codecs="mp4a.40.2" audioSamplingRate="48000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
